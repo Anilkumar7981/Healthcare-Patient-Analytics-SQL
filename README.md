@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-Healthcare Patient Analytics is a SQL Server project focused on analyzing patient demographics, hospital visits, treatment costs, department performance, recovery scores, and readmission risk.
+Healthcare Patient Analytics project using SQL Server to analyze patient demographics, hospital visits, treatment costs, revenue, recovery scores, and readmission risk.
 
 The project uses SQL to answer 25 business-driven questions and generate meaningful insights from healthcare data.
 
