@@ -81,6 +81,21 @@ The project answers 25 business questions covering:
 24. Which patients have never visited the hospital?
 25. Which departments have an average readmission risk above the selected threshold?
 
+## 💡 Key Insights
+
+- The dataset contains **5,000 patients**, providing a strong base for healthcare analysis.
+- The gender distribution is nearly balanced, with **2,508 male** and **2,492 female** patients.
+- The **West region** has the highest patient count with **1,290 patients**, followed by North, East, and South.
+- **Orthopedics** has the highest patient count among departments with **1,058 patients**.
+- **Observation** is the most common treatment type with **1,270 patients**, followed by Surgery, Medication, and Therapy.
+- Treatment costs were analyzed at patient and department levels to identify high-cost treatment cases.
+- Departments were compared based on **total revenue and average treatment cost**.
+- Recovery scores were classified into different categories to evaluate patient recovery levels.
+- The average readmission risk in the dataset is approximately **0.28**.
+- Patients were compared against their **department-level average treatment cost** to identify higher-cost cases.
+- Window functions were used to identify the **top treatment-cost records within each department**.
+- `EXISTS` and `NOT EXISTS` were used to identify patients with and without recorded hospital visits.
+
 ## 📈 Key Analysis Areas
 
 ### Patient Analysis
