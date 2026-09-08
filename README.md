@@ -24,7 +24,7 @@ The project contains three main tables:
 |---|---:|---|
 | Patients | 5,000 | Patient demographic information |
 | Visits | 5,000 | Patient visit and treatment information |
-| Treatments | 20,000 | Department and treatment information |
+| Treatments | 20 | Department and treatment information |
 
 ## 🛠️ Tools & Technologies
 
