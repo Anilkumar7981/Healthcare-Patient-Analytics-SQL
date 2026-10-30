@@ -131,5 +131,5 @@ The analysis includes basic SQL as well as advanced techniques such as CTEs, cor
 ```text
 Healthcare-Patient-Analytics-SQL/
 │
-├── Healthcare_Patient_Analytics_GitHub_Ready.sql
+├── patient_analytics_queries.sql
 └── README.md
