@@ -29,6 +29,36 @@ The raw CSV dataset was imported into SQL Server, cleaned, and normalized into t
 | Treatments | 20 | Unique department and treatment type combinations |
 
 **Dataset Period:** January – July 2022
+## 🗂️ Database Schema
+
+```mermaid
+erDiagram
+    PATIENTS ||--o{ VISITS : "has"
+    TREATMENTS ||--o{ VISITS : "used in"
+
+    PATIENTS {
+        smallint patient_id PK
+        nvarchar age_group
+        nvarchar gender
+        nvarchar region
+    }
+    TREATMENTS {
+        int treatment_id PK
+        nvarchar department
+        nvarchar treatment_type
+    }
+    VISITS {
+        int visit_id PK
+        smallint patient_id FK
+        int treatment_id FK
+        datetime visit_date
+        varchar visit_type
+        decimal length_of_stay_days
+        int treatment_cost
+        int recovery_score
+        decimal readmission_risk
+    }
+```
 
 ## 🔄 Project Workflow
 
